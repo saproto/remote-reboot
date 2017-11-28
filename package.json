@@ -1,0 +1,24 @@
+{
+  "name": "remote-reboot",
+  "version": "1.0.0",
+  "description": "Node.js script for remotely rebooting Windows systems using a webhook Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saproto/remote-reboot.git"
+  },
+  "author": "t.dortmann@proto.utwente.nl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saproto/remote-reboot/issues"
+  },
+  "homepage": "https://github.com/saproto/remote-reboot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "node-cmd": "^3.0.0"
+  }
+}
